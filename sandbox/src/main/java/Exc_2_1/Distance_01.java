@@ -2,10 +2,10 @@ package Exc_2_1;
 
 public class Distance_01 {
 
-  public Point point1; //точка 1.
-  public Point point2; //точка 2.
-  public Point point3; //точка 3.
-  public Point point4; //точка 4.
+  public Point point1; //x1.
+  public Point point2; //y1.
+  public Point point3; //x2.
+  public Point point4; //y2.
 
   public static void main(String[] args) {
 
