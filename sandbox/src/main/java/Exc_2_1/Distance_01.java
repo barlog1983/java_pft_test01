@@ -10,6 +10,7 @@ public class Distance_01 {
   public static void main(String[] args) {
 
     Point p = new Point(5, 7, 3, 4);
+
     System.out.println("Расстояние между точками p1 и p2 = " +  p.distance());
   }
 
