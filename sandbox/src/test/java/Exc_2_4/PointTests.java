@@ -1,5 +1,7 @@
-package Exc_2_2;
+package Exc_2_4;
 
+import Exc_2_4.Distance;
+import Exc_2_4.Point;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,8 +11,7 @@ public class PointTests {
   public void testDistance() {
     Point p1 = new Point(4, 0);
     Point p2 = new Point(9, 0);
-    Distance_02 D = new Distance_02();
-    Assert.assertEquals(D.distance(p1, p2), 5.0);
+    Assert.assertEquals(p1.distance(p2), 5.0);
   }
 
 
