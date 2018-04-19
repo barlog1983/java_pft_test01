@@ -38,10 +38,6 @@ public class UserCreationTests {
     submitUserCreation();
     returnToUserPage();
     wd.findElement(By.linkText("Logout")).click();
-    wd.findElement(By.name("pass")).click();
-    wd.findElement(By.name("pass")).sendKeys("\\undefined");
-    wd.findElement(By.name("user")).click();
-    wd.findElement(By.name("user")).sendKeys("\\undefined");
   }
 
   private void returnToUserPage() {
