@@ -1,4 +1,4 @@
-package ru.stga.pft.addressbook.model;
+package ru.stga.pft.addressbook;
 
 public class UserData {
   private final String firstname;
